@@ -1,0 +1,215 @@
+ul {
+    list-style: none;
+    display: inline-flex;  
+  }
+  html {
+    font-size: 16px;
+  }
+  body {
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+  }
+  h1 {
+    text-align: left;
+  }
+  h2 {
+    width: 100%;
+    background-color: brown;
+    padding: 10px;
+  }
+  .join h3 {
+    font-size: 2rem;
+    color: red;
+  }
+  .nav {
+    width: 100%;
+    background-color: brown;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    }
+    .nav1 {
+    width: 100%;
+    background-color: brown;
+    position: relative;
+    top: 10px;
+    right: 10px;
+    }
+    a {
+      display: flex;
+      text-decoration: none;
+      color: aliceblue;
+      padding-right: 15px;
+   }
+    a:hover {
+      opacity: 60%;
+    }
+    .header {
+      background-image: url('banner.jpg');
+      background-repeat: no-repeat;
+      position: relative;
+      bottom: 3rem;
+      height: 600px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      }
+    .header h1 {
+      margin-left: 10px;
+      padding-top: 4rem;
+      font-size: 3rem;
+      }
+      .line {
+        position: relative;
+        top: 4rem;
+        height: 20rem;
+        padding: 3rem;  
+      }
+      aside {
+        font-style: italic;
+        padding: 1rem;
+      }
+      .line2 {
+        position: relative;
+        top: 6rem;
+        height: 20rem;
+        padding: 3rem;  
+      }
+      .members li {
+        width: 200px;
+        height: 250px;
+        border: solid white 1px;
+        margin: 15px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+      }
+      .members ul {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;  
+      }
+      .members h3 {
+        width: 200px;
+        background-color: brown;
+        padding: 10px;
+      }
+      .Professor {
+        background-image: url('member11.jpg');
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+       .Tokyo {
+        background-image: url('member1.jpg');
+        background-position-x: 10px;
+        background-size: 220px;
+        background-repeat: no-repeat;
+       }
+       .Berlin {
+        background-image: url('member5.jpg');
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+       }
+        .Lisbon {
+        background-image: url('member2.jpg');
+        background-position: center;
+        background-size: cover;
+        background-size: 300px;
+        background-repeat: no-repeat;
+       }
+       .Nairobi {
+        background-image: url('member7.jpg');
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+       }
+       .Denver {
+        background-image: url('member4.jpg');
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+       }
+       .Stockholm {
+        background-image: url('member6.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+       }
+        .Julia {
+        background-image: url('member3.jpg');
+        background-position: center;
+        background-position-x: -200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+        .Rio {
+        background-image: url('member12.jpg');
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+        .Helsinki {
+        background-image: url('member10.jpg');
+        background-position-x: -320px;
+        background-position-y: -20px;
+        background-size: 600px;
+        background-repeat: no-repeat;
+        }
+        .Palermo {
+        background-image: url('member8.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+        .Moscow {
+        background-image: url('member13.jpg');
+        background-position-x: -200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+  .galary img {
+    object-fit: cover;
+  width: 500px;
+  height: 300px;
+  margin: 15px;
+    }
+    .galary ul {
+      justify-content: center;
+        display: flex;
+        flex-wrap: wrap;  
+    }
+  .join img {
+    width: 600px;
+  }
+  @media screen and (max-width: 700px) {
+    .header {
+       height: 500px;
+    }
+    
+    .members li {
+        width: 250px;
+        height: 200px;
+         margin: 10px 0 10px 0;
+      }
+    
+    .members h3 {
+        width: 250px;
+  }
+   .members ul {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;  
+   }
+   .galary img {
+  width: 60%;
+  height: auto;
+   }
+   .join img {
+    width: 80%; 
+  }
+  }
